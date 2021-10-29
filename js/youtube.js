@@ -6,7 +6,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
 function onYouTubeIframeAPIReady() {
- new YT.Player('player', {
+  new YT.Player('player', {
     videoId: 'An6LvWQuj_8',
     playerVars: {
       autoplay: true,
